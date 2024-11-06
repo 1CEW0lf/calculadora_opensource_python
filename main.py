@@ -33,3 +33,6 @@ Bienvenido a mi calculadora, por favor ingresa la opción que desees.
             print(f'El resultado de tu división es {resultado}')
         else:
             print("No se puede realizar la división.")
+
+    else:
+        print('Ejecuta una opción válida')
