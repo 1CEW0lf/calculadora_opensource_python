@@ -36,3 +36,6 @@ Bienvenido a mi calculadora, por favor ingresa la opción que desees.
 
     else:
         print('Ejecuta una opción válida')
+
+print('---------------------------------------')
+print('Bye, Gracias por usar mi calculadora')
