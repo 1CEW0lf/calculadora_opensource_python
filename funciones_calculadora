@@ -7,6 +7,3 @@ def sumar_n_numeros():
         lista_numeros.append(numero_a_sumar)
 
     return sum(lista_numeros)
-
-resultado = sumar_n_numeros
-print(resultado)

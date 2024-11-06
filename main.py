@@ -1,3 +1,5 @@
+from funciones_calculadora import sumar_n_numeros
+
 while True:
     print('''
 Bienvenido a mi calculadora, por favor ingresa la opción que desees.
@@ -13,3 +15,7 @@ Bienvenido a mi calculadora, por favor ingresa la opción que desees.
     opcion = int(input('> '))
     if opcion == 0:
         break
+
+    elif opcion == 1:
+        resultado = sumar_n_numeros
+        print(f'El resultado de tu suma es {resultado}')
