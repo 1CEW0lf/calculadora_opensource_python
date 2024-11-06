@@ -18,15 +18,15 @@ Bienvenido a mi calculadora, por favor ingresa la opción que desees.
 
     match opcion:
         case 1:
-            resultado = sumar_n_numeros
+            resultado = sumar_n_numeros()
             print(resultado)
 
         case 2:
-            resultado = multiplicacion_n_numeros
+            resultado = multiplicacion_n_numeros()
             print(resultado)
 
         case 3:
-            resultado = division_2_numeros
+            resultado = division_2_numeros()
             print(resultado)
 
         case 0:
