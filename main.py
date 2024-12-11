@@ -42,6 +42,20 @@ Bienvenido a mi calculadora, por favor ingresa la opción que desees.
         resultado = resolver_para_y()
         print(f'El resultado es: {resultado}')
 
+        x = np.linspace(-10,10)
+        y = (resultado['pendiente'] * x) + resultado['ordenada_origen']
+
+        fig, ax = plt.subplots()
+
+        ax.plot(x, y, linewidth = 2.0)
+        ax.plot(resultado['punto_x'], resultado['resultado'], 'yo')
+
+        ax.grid(True, linestyle = '-')
+
+        #ax.set(xlim=(0, 8), xticks=np.arange(1, 8), ylim=(0, 8), yticks=np.arange(1, 8))
+
+        plt.show()
+
     else:
         print('Ejecuta una opción válida')
 
