@@ -2,6 +2,8 @@ from funciones_calculadora import sumar_n_numeros
 from funciones_calculadora import multiplicacion_n_numeros
 from funciones_calculadora import division_2_numeros
 from funciones_calculadora import resolver_para_y
+
+#Se importaron librerias
 import numpy as np
 import matplotlib.pyplot as plt
 
